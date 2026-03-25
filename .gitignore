@@ -132,6 +132,9 @@ dist/
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
+# Release artifacts
+releases/
+
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
