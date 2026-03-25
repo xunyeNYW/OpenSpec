@@ -18,6 +18,7 @@ import { costrictAdapter } from './adapters/costrict.js';
 import { crushAdapter } from './adapters/crush.js';
 import { cursorAdapter } from './adapters/cursor.js';
 import { factoryAdapter } from './adapters/factory.js';
+import { flowAdapter } from './adapters/flow.js';
 import { geminiAdapter } from './adapters/gemini.js';
 import { githubCopilotAdapter } from './adapters/github-copilot.js';
 import { iflowAdapter } from './adapters/iflow.js';
@@ -50,6 +51,7 @@ export class CommandAdapterRegistry {
     CommandAdapterRegistry.register(crushAdapter);
     CommandAdapterRegistry.register(cursorAdapter);
     CommandAdapterRegistry.register(factoryAdapter);
+    CommandAdapterRegistry.register(flowAdapter);
     CommandAdapterRegistry.register(geminiAdapter);
     CommandAdapterRegistry.register(githubCopilotAdapter);
     CommandAdapterRegistry.register(iflowAdapter);
